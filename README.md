@@ -13,6 +13,17 @@ Project 2 in my HTML & CSS (plus a bit of JS) track. This is a basic on-screen c
 ### 3. Simple Landing Page
 This is the third project in my HTML/CSS project-based learning path. It's a clean and responsive landing page built with just HTML and CSS — no frameworks, no fancy JS — just raw front-end fundamentals.
 
+### 4. Creative Blog Layout
+Welcome to Project 4 of my **Project-Based Learning Path for HTML & CSS**!
+
+This project is a **visually vibrant blog layout** built with only HTML and CSS (with a tiny bit of JavaScript for dark mode). It features a clean design with:
+- A **featured blog post**
+- **Article cards** laid out in a grid
+- A **sidebar** with categories and a newsletter signup
+- A fully functional **Dark Mode toggle**
+
+No backend or frameworks — just pure front-end creativity.
+
 -----
 
 ## How to Run
