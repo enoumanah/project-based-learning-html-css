@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body>
+    <header>
+    <h1>Eno's Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button id="toggle-theme">🌓 Toggle Dark Mode</button>
+  </header>
+
+    <main class="container">
+      <section class="featured-post">
+        <img src="https://picsum.photos/800/300" alt="Featured Image" />
+        <h2>Featured Blog Post</h2>
+        <p>Creative insights and ideas that keep readers hooked.</p>
+      </section>
+      <section class="blog-content">
+      <div class="articles">
+        <article class="card">
+          <h3>Post Title 1</h3>
+          <p>Some exciting content for your audience.</p>
+        </article>
+        <article class="card">
+          <h3>Post Title 2</h3>
+          <p>Another fun blog update for the squad.</p>
+        </article>
+        <article class="card">
+          <h3>Post Title 3</h3>
+          <p>Fresh perspective on something cool.</p>
+        </article>
+        <article class="card">
+          <h3>Post Title 4</h3>
+          <p>Deep dive into a trending topic.</p>
+        </article>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Categories</h3>
+        <ul>
+          <li>Inspiration</li>
+          <li>Tech</li>
+          <li>Design</li>
+        </ul>
+        <h3>Subscribe</h3>
+        <input type="email" placeholder="Your email" />
+        <button>Subscribe</button>
+      </aside>
+    </section>
+  </main>
+    </main>
+    <footer>
+    <p>&copy; 2025 My Creative Blog. All rights reserved. Created By Eno</p>
+  </footer>
+    <script>
+      const toggleBtn = document.getElementById("toggle-theme");
+      toggleBtn.addEventListener("click", () => {
+        const html = document.documentElement;
+        html.dataset.theme = html.dataset.theme === "dark" ? "light" : "dark";
+      });
+    </script>
+  </body>
+</html>
