@@ -4,7 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <h1>✨ My Gallery</h1>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+    <section class="gallery">
+      <div class="card" data-title="House Of Ballons">
+        <img src="img/House Of Ballons.jpg" alt="House Of Ballons" />
+      </div>
+      <div class="card" data-title="Thursday">
+        <img src="img/Thursday.jpg" alt="Thursday" />
+      </div>
+      <div class="card" data-title="Echoes Of Silence">
+        <img src="img/Echoes OF Silence.jpg" alt="Echoes Of Silence" />
+      </div>
+      <div class="card" data-title="Kiss Land">
+        <img src="img/Kiss Land.jpg" alt="Kiss Land" />
+      </div>
+      <div class="card" data-title="Beauty Behind The Madness">
+        <img
+          src="img/Beauty Behind The Madness.jpg"
+          alt="Beauty Behind The Madness"
+        />
+      </div>
+      <div class="card" data-title="Starboy">
+        <img src="img/Starboy.jpg" alt="Starboy" />
+      </div>
+      <div class="card" data-title="My Dear Melancholy">
+        <img src="img/My Dear Melancholy,.jpg" alt="My Dear Melancholy" />
+      </div>
+      <div class="card" data-title="After Hours">
+        <img src="img/After Hours.jpg" alt="After Hours" />
+      </div>
+      <div class="card" data-title="Dawn FM">
+        <img src="img/Dawn FM.jpg" alt="Dawn FM" />
+      </div>
+      <div class="card" data-title="Hurry Up Tommorrow">
+        <img src="img/HURRY UP TOMORROW.jpg" alt="Hurry Up Tommorrow" />
+      </div>
+    </section>
+    <div class="lightbox" id="lightbox">
+      <button class="close">&times;</button>
+      <span class="counter" id="counter"></span>
+      <img src="" alt="Preview" class="lightbox-img" />
+      <p class="caption" id="caption"></p>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <footer>
+      <p>Made with ❤️ by Eno</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
