@@ -1,7 +1,8 @@
 :root {
   --bg: #ffffff;
   --text: #111111;
-  --overlay: rgba(0, 0, 0, 0.6);
+  --overlay: rgba(0, 0, 0, 0.5);
+  --overlay-text: #ffffff;
   --accent: #ff4d6d;
 }
 
@@ -9,6 +10,7 @@ body.dark {
   --bg: #121212;
   --text: #f0f0f0;
   --overlay: rgba(255, 255, 255, 0.1);
+  --overlay-text: #434242;
   --accent: #00f5d4;
 }
 
@@ -70,7 +72,7 @@ nav {
   left: 0;
   width: 100%;
   background: var(--overlay);
-  color: var(--text);
+  color: var(--overlay-text);
   padding: 0.5rem 1rem;
   font-size: 1rem;
   opacity: 0;
