@@ -9,8 +9,8 @@
 body.dark {
   --bg: #121212;
   --text: #f0f0f0;
-  --overlay: rgba(255, 255, 255, 0.1);
-  --overlay-text: #434242;
+  --overlay: rgba(0, 0, 0, 0.5);
+  --overlay-text: #ffffff;
   --accent: #00f5d4;
 }
 
