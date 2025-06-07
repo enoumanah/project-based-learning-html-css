@@ -25,7 +25,7 @@ This project is a **visually vibrant blog layout** built with only HTML and CSS 
 No backend or frameworks — just pure front-end creativity.
 
 ### 5. Image Gallery
-This is Project #4 in my **HTML + CSS Project-Based Learning Path** — a sleek, responsive image gallery that shows off images in style, with **dark mode**, **hover effects**, and a **lightbox modal** for full-screen viewing. Built with just HTML, CSS, and vanilla JavaScript.
+This is Project 5 in my **HTML + CSS Project-Based Learning Path** — a sleek, responsive image gallery that shows off images in style, with **dark mode**, **hover effects**, and a **lightbox modal** for full-screen viewing. Built with just HTML, CSS, and vanilla JavaScript.
 
 ## 🚀 Features
 
