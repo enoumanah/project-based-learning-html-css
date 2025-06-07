@@ -1,6 +1,6 @@
 # Project-Based Learning: HTML-CSS-JS
 
-This repo contains multiple mini-projects to learn and practice HTML and CSS through building 
+This repo contains multiple mini-projects to learn and practice HTML, CSS and Javascript through building 
 
 ## Projects
 
