@@ -23,7 +23,6 @@
 .header ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
 }
 .cta {
   background-color: #4256d7;
