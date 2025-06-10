@@ -1,0 +1,150 @@
+:root {
+  --bg: #f0f2f5;
+  --text: #222;
+  --card: #fff;
+  --input-bg: #fff;
+  --button: #4caf50;
+  --button-hover: #45a049;
+  --delete: #e74c3c;
+  --delete-hover: #c0392b;
+  --accent: #007bff;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f5f5f5;
+  --card: #2a2a2a;
+  --input-bg: #3a3a3a;
+  --button: #27ae60;
+  --button-hover: #1e8449;
+  --delete: #e74c3c;
+  --delete-hover: #c0392b;
+  --accent: #3498db;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.input-section,
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: var(--input-bg);
+  color: var(--text);
+  outline: none;
+}
+
+button {
+  padding: 10px 16px;
+  background: var(--button);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: var(--button-hover);
+}
+
+#themeToggle {
+  background: #555;
+  flex: 1;
+}
+
+#filter {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--input-bg);
+  color: var(--text);
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: var(--input-bg);
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.3s ease forwards;
+  cursor: grab;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button.delete-btn {
+  background: var(--delete);
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background: var(--delete-hover);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
