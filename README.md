@@ -39,7 +39,7 @@ This is Project 5 in my **HTML + CSS Project-Based Learning Path** — a sleek, 
 
 ### 6. To-Do App 📝
 
-**Project 4** in my HTML, CSS & JavaScript journey. A fully functional to‑do list with basic task management—all using vanilla JavaScript.
+**Project 6** in my HTML, CSS & JavaScript journey. A fully functional to‑do list with basic task management—all using vanilla JavaScript.
 
 ## 🚀 Features
 
