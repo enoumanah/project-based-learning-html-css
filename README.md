@@ -37,6 +37,19 @@ This is Project 5 in my **HTML + CSS Project-Based Learning Path** — a sleek, 
 - ✅ Keyboard support (← → Esc)
 
 
+### 6. To-Do App 📝
+
+**Project 6** in my HTML, CSS & JavaScript journey. A fully functional to‑do list with basic task management—all using vanilla JavaScript.
+
+## 🚀 Features
+
+- **Add** new tasks  
+- **Mark tasks complete** with a click  
+- **Delete** tasks individually  
+- **Persistent storage** using localStorage (tasks stick after refresh)
+- **Keyboard Support** can add a task using the enter key
+
+
 -----
 
 ## How to Run
